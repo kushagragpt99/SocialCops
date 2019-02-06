@@ -59,33 +59,17 @@ for additive decomposition and log of trend and observed data for multiplicative
 model and subtraction after taking log in the case of multiplicatiev model).  
 
 ###Comparing with MSP
-The values 
+A loop is run over all values in data2, where the MSP of the commodity of the entry in the loop is compared with the min_price
+of the entry in the loop. If value of min_price is less than MSP of that commodity ( detected from the com_price dict with keys as commodity
+name and key as MSP of the ommodity) then that loop entry is adde to the list exceeding_msp.
+
+###Highest Price Fluctuation   
+data3 has entries of data2 sorted by fluctuation in descending order. An array of all zeros of size _no of commodities*no of APMC*no of years_ 
+is created to keep a check on reoccurence of values identified by the above 3 metrics. passing through data3, the first occurence of commodity in an APMC in a year in data3 will have the maximum fluctuation as data3 is sorted in descending order of fluctuation.
+ First occurence marks check_arr as 1 and no other values of the APMC*commodity*year is added to the max_fluctuation_list. 
 
 
-```markdown 
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kushagragpt99/SocialCops/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
