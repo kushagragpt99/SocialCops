@@ -20,12 +20,20 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 **data2** - Pandas dataframe with values from _'Monthly_data_cmo.csv'_
 **matrix2** - Numpy representation of data2
 **matrix1** - Numpy representation of data1
-**commodity_dict** - Dictionary with the commodities from data2 as keys and information about the commodities as values. Information is stored as numpy arrays in the same structure as given in data2.                   
+**commodity_dict** - Dictionary with the commodities from data2 as keys and information about the commodities as values. Information is stored as numpy arrays in the same structure as given in data2.   
+
+
 **APMC_dict** - Dictionary with the APMCs from data2 as keys and information about the APMCs as values. Information is stored as numpy arrays in the same structure as given in data2.   
-**com_price** - dict with keys as commodities and values as their minimum support price.
-**exceeding_msp** - list with entries exceeding MSP given in CMO_MSP_Mandi.csv
-**data3** - storing fluctuation (max_price - min_price) in a column of data3, sorted in descending order of fluctuation
-**max_fluctuation_list** - list with entries corresponding to maximum fluctuation among a group whose membership is decided by APMC, commodity and year i.e 3 degrees of freedom for membership.
+
+
+**com_price** - dict with keys as commodities and values as their minimum support price.  
+
+**exceeding_msp** - list with entries exceeding MSP given in CMO_MSP_Mandi.csv.  
+
+**data3** - storing fluctuation (max_price - min_price) in a column of data3, sorted in descending order of fluctuation.   
+
+**max_fluctuation_list** - list with entries corresponding to maximum fluctuation among a group whose membership is decided by APMC, commodity and year i.e 3 degrees of freedom for membership.  
+
 
 ```markdown
 Syntax highlighted code block
