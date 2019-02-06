@@ -5,6 +5,7 @@ theme: jekyll-theme-minimal
 Aim: Your team is working on building a variety of insight packs to measure key trends in the Agriculture sector in India. You are presented with a data set around Agriculture and your aim is to understand trends in APMC (Agricultural produce market committee)/mandi price & quantity arrival data for different commodities in Maharashtra.
 
 ## Objective:
+
 1. Test and filter outliers.
 2. Understand price fluctuations accounting the seasonal effect
 3. Detect seasonality type (multiplicative or additive) for each cluster of APMC and commodities.  
