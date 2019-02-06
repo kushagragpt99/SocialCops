@@ -6,8 +6,8 @@ Aim: Your team is working on building a variety of insight packs to measure key 
 
 ## Objective:
 
-1. Test and filter outliers.
-2. Understand price fluctuations accounting the seasonal effect
+1.Test and filter outliers.
+2.Understand price fluctuations accounting the seasonal effect
 3. Detect seasonality type (multiplicative or additive) for each cluster of APMC and commodities.  
   3.1. De-seasonalise prices for each commodity and APMC according to the detected seasonality type.  
   3.2. Compare prices in APMC/Mandi with MSP(Minimum Support Price)- raw and deseasonalised.  
