@@ -70,5 +70,5 @@ is created to keep a check on reoccurence of values identified by the above 3 me
 
 
 
-[Link](url) and ![Image](src)
+[Link](url) and ![Image](https://github.com/kushagragpt99/SocialCops/tree/master/pictures/regression_mult.png)
 ```
