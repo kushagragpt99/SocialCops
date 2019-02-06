@@ -16,10 +16,14 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ## Description of frequently used variables
 
-**data1** - Pandas dataframe with values from _'CMO_MSP_Mandi.csv'_
-**data2** - Pandas dataframe with values from _'Monthly_data_cmo.csv'_
-**matrix2** - Numpy representation of data2
-**matrix1** - Numpy representation of data1
+**data1** - Pandas dataframe with values from _'CMO_MSP_Mandi.csv'_.   
+
+**data2** - Pandas dataframe with values from _'Monthly_data_cmo.csv'_.   
+
+**matrix2** - Numpy representation of data2.   
+
+**matrix1** - Numpy representation of data1.   
+
 **commodity_dict** - Dictionary with the commodities from data2 as keys and information about the commodities as values. Information is stored as numpy arrays in the same structure as given in data2.   
 
 
