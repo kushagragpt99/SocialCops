@@ -63,7 +63,7 @@ for additive decomposition and log of trend and observed data for multiplicative
 model and subtraction after taking log in the case of multiplicatiev model).  
 ![Octocat](https://assets-cdn.github.com/images/icons/emoji/octocat.png)  
 
-![Image](SocialCops/assets/pictures/regression_mult.png)   
+![Image](/assets/pictures/regression_mult.png)   
       
 
 ### Comparing with MSP
