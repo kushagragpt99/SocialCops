@@ -17,6 +17,9 @@ Aim: Your team is working on building a variety of insight packs to measure key 
 **max_fluctuation.xlsx** excel file with entries having the maximum fluctuation. Entries are selected according to 3 parameters - 
 APMC, commodity and price.  
 
+### Data  
+https://drive.google.com/drive/u/0/folders/0B-zoMsiXW40gZlNtNnlINEszRTg   
+
 ### Drive link for files 
 https://drive.google.com/open?id=1xaOdG3IjIpV5XiF6cUCFiH6UqyUDYw_v  
 
