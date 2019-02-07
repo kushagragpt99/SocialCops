@@ -66,8 +66,7 @@ for additive decomposition and log of trend and observed data for multiplicative
 model and subtraction after taking log in the case of multiplicatiev model).  
 
 
-![Image](/assets/pictures/regression_mult.png) 
-
+![Image](/assets/pictures/regression_mult.png)
 ![Image](/assets/pictures/regression_add.png)    
 
 ### Comparing with MSP
@@ -81,5 +80,3 @@ is created to keep a check on reoccurence of values identified by the above 3 me
  First occurence marks check_arr as 1 and no other values of the APMC*commodity*year is added to the max_fluctuation_list. 
 
 
-
-[Link](url) and ![Image](https://github.com/kushagragpt99/SocialCops/tree/master/assets/pictures/regression_mult.png)
