@@ -60,14 +60,15 @@ for additive decomposition and log of trend and observed data for multiplicative
 
 ![Image](/assets/pictures/additive_example.png) 
 ![Image](/assets/pictures/multiplicative_model.png) 
-
-![Image](/assets/pictures/regression_mult.png) 
-
-![Image](/assets/pictures/regression_add.png)   
+ 
 
 2. The second approach uses moving mean over 4 points to calculate the trend. Seasonality is detected by removing trend from the observed data (direct subtraction in the case of additive
 model and subtraction after taking log in the case of multiplicatiev model).  
 
+
+![Image](/assets/pictures/regression_mult.png) 
+
+![Image](/assets/pictures/regression_add.png)    
 
 ### Comparing with MSP
 A loop is run over all values in data2, where the MSP of the commodity of the entry in the loop is compared with the min_price
