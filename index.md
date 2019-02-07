@@ -52,6 +52,8 @@ High = (Q3) + 1.5 IQR
 Low = (Q1) – 1.5 IQR  
 In the case of quartiles, the Interquartile Range (IQR) may be used to characterize the data when there may be extremities that skew the data; the interquartile range is a relatively robust statistic (also sometimes called "resistance") compared to the range and standard deviation.  
 
+![Image](/assets/pictures/modal_price_vs_datetime.png) 
+![Image](/assets/pictures/qty_vs_datetime.png)   
 ### Understand price fluctuations accounting the seasonal effect  
 Multiple approaches to detecting seasonality are used for the task.  datetime indexed
 1. The first approach uses the seasonal decompose function of statsmodels library. Given dataframe is converted to a time series with
@@ -59,6 +61,12 @@ respect to an interval of months across the span of time range (2014 September t
 time-series is broken to trend, seasonal and residual components according to the additive and multiplicative  seasonal model. Regression models are used to fit linear models on trend vs observed data
 for additive decomposition and log of trend and observed data for multiplicative model.  
 
+![Image](/assets/pictures/additive_example.png) 
+![Image](/assets/pictures/multiplicative_model.png) 
+
+![Image](/assets/pictures/regression_mult.png) 
+
+![Image](/assets/pictures/regression_add.png) 
 2. The second approach uses moving mean over 4 points to calculate the trend. Seasonality is detected by removing trend from the observed data (direct subtraction in the case of additive
 model and subtraction after taking log in the case of multiplicatiev model).  
 ![Octocat](https://assets-cdn.github.com/images/icons/emoji/octocat.png)  
