@@ -11,9 +11,18 @@ Aim: Your team is working on building a variety of insight packs to measure key 
    3.2. Compare prices in APMC/Mandi with MSP(Minimum Support Price)- raw and deseasonalised.  
 4. Flag set of APMC/mandis and commodities with highest price fluctuation across different commodities in each relevant season, and year.  
 
+## Description of files  
+**socialcops.ipynb** - jupyter notebook with the data-analytics procedure.
+**exceeding_msp.xlsx** excel file with entries exceeding the minimum supprot price of the commodity in the commodity column of entry.  
+**max_fluctuation.xlsx** excel file with entries having the maximum fluctuation. Entries are selected according to 3 parameters - 
+APMC, commodity and price.  
+
+### Drive link for files 
+https://drive.google.com/open?id=1xaOdG3IjIpV5XiF6cUCFiH6UqyUDYw_v  
+
  
 ## Description of frequently used variables
-**data1**  Pandas dataframe with values in  CMO_MSP_Mandi.csv.   
+**data1**  Pandas dataframe with values in  _'CMO_MSP_Mandi.csv'_.   
   
 **data2** - Pandas dataframe with values from _'Monthly_data_cmo.csv'_.  
 
