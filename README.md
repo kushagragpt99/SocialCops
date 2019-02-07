@@ -13,7 +13,7 @@ Aim: Your team is working on building a variety of insight packs to measure key 
 
  
 ## Description of frequently used variables
-1:**data1**  Pandas dataframe with values in  CMO_MSP_Mandi.csv.   
+**data1**  Pandas dataframe with values in  CMO_MSP_Mandi.csv.   
   
 **data2** - Pandas dataframe with values from _'Monthly_data_cmo.csv'_.  
 
