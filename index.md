@@ -1,6 +1,3 @@
----
-layout: default
----
 
 # Challenge 1: Agriculture Commodities, Prices & Seasons
 
