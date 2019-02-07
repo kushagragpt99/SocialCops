@@ -61,7 +61,7 @@ for additive decomposition and log of trend and observed data for multiplicative
 
 2. The second approach uses moving mean over 4 points to calculate the trend. Seasonality is detected by removing trend from the observed data (direct subtraction in the case of additive
 model and subtraction after taking log in the case of multiplicatiev model).  
-
+![Octocat](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
 ![Image](https://github.com/kushagragpt99/SocialCops/tree/master/assets/pictures/regression_mult.png)
 
 ### Comparing with MSP
