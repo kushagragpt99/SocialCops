@@ -63,7 +63,8 @@ for additive decomposition and log of trend and observed data for multiplicative
 model and subtraction after taking log in the case of multiplicatiev model).  
 ![Octocat](https://assets-cdn.github.com/images/icons/emoji/octocat.png)  
 
-![Image](https://drive.google.com/open?id=1O0hvkioQn1OJs7rqOpy4BbRjAhGGz2hC)
+![Image](SocialCops/assets/pictures/regression_mult.png)   
+      
 
 ### Comparing with MSP
 A loop is run over all values in data2, where the MSP of the commodity of the entry in the loop is compared with the min_price
